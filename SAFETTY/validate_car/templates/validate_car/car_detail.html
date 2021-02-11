@@ -1,0 +1,14 @@
+{% extends 'validate_car/base.html' %}
+{% block body_block %}
+
+    <p></p>
+    <h2><span class="badge bg-success">Registered</span></h2>
+    <p></p>
+    <ul>
+      <li>License Plate: {{ car.license_plate }}</li>
+      <li>Car: {{ car.make_model_year }} </li>
+      <li>Colour: {{ car.colour }}</li>
+      <li>Route: {{ car.route }}</li>
+    </ul>
+
+{% endblock %}

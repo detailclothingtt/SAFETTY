@@ -1,0 +1,12 @@
+{% extends 'validate_car/base.html' %}
+{% block body_block %}
+
+  <h1>{{ driver.first_name }} {{ driver.last_name }}</h1>
+  <ul>
+    <li>Year of Birth: {{ driver.dob }}</li>
+    <li>Permit Number: {{ driver.permit_number }} </li>
+    <li>Address: {{ driver.address }} </li>
+    <li>Contact Number: {{ driver.contact_number }} </li>
+  </ul>
+
+{% endblock %}
